@@ -1,0 +1,114 @@
+body{
+	font-family: 'Open Sans',sans-serif;
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 40s ease infinite;
+}
+button{
+	color: cyan;
+	background-color: #e73c7e;
+	border-radius: 10px;
+}
+.panda{
+	background: linear-gradient(-45deg, #e73c7e, #23a6d5, #23d5ab);
+	padding:10px;
+	text-align: center;
+	border: solid 1px black;
+	box-shadow: 0 0 15px black;
+	margin-left: 300px;
+	margin-right: 300px;
+}
+.teddy{
+	background: linear-gradient(-45deg, #e73c7e, #23a6d5, #23d5ab);
+	margin-top: 50px;
+	padding:10px;
+	text-align: center;
+	border: solid 1px black;
+	box-shadow: 0 0 15px black;
+	margin-left: 300px;
+	margin-right: 300px;
+}
+.pigeon{
+	background: linear-gradient(-45deg, #e73c7e, #23a6d5, #23d5ab);
+	margin-top: 50px;
+	padding:10px;
+	text-align: center;
+	border: solid 1px black;
+	box-shadow: 0 0 15px black;
+	margin-left: 300px;
+	margin-right: 300px;
+}
+.camel{
+	background: linear-gradient(-45deg, #e73c7e, #23a6d5, #23d5ab);
+	margin-top: 50px;
+	padding:10px;
+	text-align: center;
+	border: solid 1px black;
+	box-shadow: 0 0 15px black;
+	margin-left: 300px;
+	margin-right: 300px;
+}
+.chameleon{
+	background: linear-gradient(-45deg, #e73c7e, #23a6d5, #23d5ab);
+	margin-top: 50px;
+	padding:10px;
+	text-align: center;
+	border: solid 1px black;
+	box-shadow: 0 0 15px black;
+	margin-left: 300px;
+	margin-right: 300px;
+}
+.cicada{
+	background: linear-gradient(-45deg, #e73c7e, #23a6d5, #23d5ab);
+	margin-top: 50px;
+	padding:10px;
+	text-align: center;
+	border: solid 1px black;
+	box-shadow: 0 0 15px black;
+	margin-left: 300px;
+	margin-right: 300px;
+}
+h1{
+	text-align: center;
+}
+.footer{
+	background: linear-gradient(-45deg, #e73c7e, #23a6d5, #23d5ab);
+	margin-top: 50px;
+	padding:10px;
+	text-align: center;
+	border: solid 1px black;
+	box-shadow: 0 0 15px black;
+	margin-left: 300px;
+	margin-right: 300px;
+}
+a:active{
+	color: #e73c7e;
+	border-style: dotted;
+}
+a:visited{
+	color:  #e73c7e;
+}
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+.trans{
+    animation: transaction1 3s;
+}
+
+@keyframes transaction1{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
